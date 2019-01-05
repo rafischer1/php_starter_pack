@@ -11,4 +11,12 @@ php -S localhost:8000
   // Code will end here 
   ?> This is output as literal text.
 
+  // Arrays
+  <?php echo '<br /><br /> For each in an array: ';
+    $colors = array('red', 'blue', 'teal', 'salmon');
+      foreach ($colors as $color) {
+        echo "Color is: $color.\n";
+      }
+  ?>
+
 ```
