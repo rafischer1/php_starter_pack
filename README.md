@@ -1,5 +1,7 @@
 # Getting Started with PHP 🐘🌷
 
+[Language Reference and Types](http://php.net/manual/en/langref.php)
+
 ```php
 to run on localhost:8000/hello.php
 
