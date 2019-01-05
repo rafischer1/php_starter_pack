@@ -7,10 +7,6 @@ to run on localhost:8000/hello.php
 
 php -S localhost:8000
 
-<?php
-  // Code will end here 
-  ?> This is output as literal text.
-
   // Arrays
   <?php echo '<br /><br /> For each in an array: ';
     $colors = array('red', 'blue', 'teal', 'salmon');
