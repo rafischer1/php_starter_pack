@@ -12,6 +12,6 @@
  </head>
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
- <?php echo '<div class="blockDiv">Block Div</div>'
+ <?php echo '<div class="blockDiv">Block Div</div>'; ?>
  </body>
 </html>
