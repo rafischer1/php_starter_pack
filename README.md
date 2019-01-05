@@ -12,7 +12,7 @@ php -S localhost:8000
     $colors = array('red', 'blue', 'teal', 'salmon');
       foreach ($colors as $color) {
         echo "Color is: $color.\n";
-      }
+      };
   ?>
 
 ```

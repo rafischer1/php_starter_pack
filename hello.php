@@ -7,7 +7,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    text-shadow: 2px 2px 2px rgba(255, 113, 218, 1);
+    text-shadow: 2px 4px 4px pink;
     background-color: darkgrey;
   }
   .blockDiv {
@@ -18,6 +18,15 @@
     background-color: white;
     height: auto;
     padding: 2%;
+    margin: 0 1%;
+  }
+
+  hr {
+    height: 2px;
+    color: pink;
+    background-color: pink;
+    width: 50%;
+    border-radius: 10px;
   }
   </style>
  </head>
@@ -44,11 +53,31 @@ echo '<br /> Accessing by key ["Artie"]: ';
 
    // methods on arrays forEach
 echo '<br /><br /> For each in an array: ';
-$colors = array('red', 'blue', 'teal', 'salmon');
+$colors = array('pink', 'blue', 'teal', 'salmon');
 foreach ($colors as $color) {
     echo "Color is: $color.\n";
-}
+};
 ?>
+<hr />
+<?php   
+echo 'PHP code recursive Fibonacci series: <br />'; 
+// Recursive function for fibonacci series. 
+function Fibonacci($number){ 
+    if ($number == 0) 
+        return 0;     
+    else if ($number == 1) 
+        return 1;     
+    else
+        return (Fibonacci($number-1) +  
+                Fibonacci($number-2)); 
+};
+
+$number = 20; 
+for ($i = 0; $i <= $number; $i++){  
+    echo Fibonacci($i),'=>'; 
+};
+?>
+<hr />
  </div>
  </body>
 </html>
